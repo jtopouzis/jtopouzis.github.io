@@ -1,0 +1,162 @@
+.footer {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.footer__hr {
+    border-color: var(--clr-slate800);
+}
+
+.footer__content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.footer__title {
+    color: var(--clr-slate400);
+    text-transform: uppercase;
+    font-size: var(--size-4xl);
+    letter-spacing: -0.05em;
+    line-height: 1;
+}
+
+.footer__subtitle {
+    color: var(--clr-slate600);
+    font-size: var(--size-base);
+    letter-spacing: -0.05em;
+    line-height: 1;
+}
+
+.footer__description {
+    max-width: 60ch;
+    font-size: var(--size-sm);
+    color: var(--clr-slate600);
+}
+
+/* xs */
+/* @media (min-width: 475px) {
+
+} */
+
+/* sm */
+/* @media (min-width: 640px) {
+
+} */
+
+/* xs */
+@media (min-width: 475px) {
+    .footer {
+        gap: 1.5rem;
+    }
+    
+    .footer__content {
+        gap: 1.5rem;
+    }
+    
+    .footer__title {
+        font-size: var(--size-5xl);
+    }
+    
+    .footer__description {
+        font-size: var(--size-base);
+    }
+    
+    .footer__subtitle {
+        font-size: var(--size-xl);
+    }
+    
+    .footer__list {
+        font-size: var(--size-base);
+    }
+}
+
+/* sm */
+@media (min-width: 640px) {
+    .footer__img {
+        width: 28.6875rem;
+    }
+}
+
+/* md */
+@media (min-width: 768px) {
+    .footer__img {
+        width: 29.85rem;
+    }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+
+    .footer__title {
+        font-size: var(--size-7xl);
+    }
+    
+    .footer__description {
+        font-size: var(--size-lg);
+    }
+    
+    .footer__subtitle {
+        font-size: var(--size-2xl);
+    }
+    
+    .footer__list {
+        font-size: var(--size-lg);
+    }
+
+    .footer__svg-icon {
+        width: 1.15em;
+        height: 1.15em;
+    }
+
+    .footer__img-wrapper {
+        margin-top: 4.5rem;
+      }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+    .footer__content {
+        gap: 2rem;
+    }
+
+    .footer__title {
+        font-size: var(--size-8xl);
+    }
+    
+    .footer__description {
+        font-size: var(--size-xl);
+    }
+    
+    .footer__subtitle {
+        font-size: var(--size-3xl);
+    }
+    
+    .footer__list {
+        font-size: var(--size-xl);
+    }
+
+    .footer__svg-icon {
+        width: 1.15em;
+        height: 1.15em;
+    }
+
+    .footer__img-wrapper {
+        margin-top: 5.5rem;
+      }
+
+    .footer__img {
+        width: 30.75rem;
+    }
+}
+
+/* 2xl */
+/* @media (min-width: 1536px) {
+
+} */

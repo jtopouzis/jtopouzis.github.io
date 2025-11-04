@@ -28,6 +28,7 @@
 .about__hr {
     border-color: var(--clr-slate800);
 }
+
 .about__subtitle {
     font-size: var(--size-sm);
     color: var(--clr-slate400);

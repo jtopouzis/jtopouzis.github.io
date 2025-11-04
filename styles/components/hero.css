@@ -28,6 +28,14 @@
     line-height: 1;
 }
 
+.hero__titlesub {
+    color: var(--clr-slate400);
+    text-transform: uppercase;
+    font-size: var(--size-base);
+    letter-spacing: -0.05em;
+    line-height: 1;
+}
+
 .hero__description {
     max-width: 60ch;
     font-size: var(--size-sm);
@@ -56,6 +64,10 @@
     
     .hero__title {
         font-size: var(--size-5xl);
+    }
+
+    .hero__titlesub {
+        font-size: var(--size-lg);
     }
     
     .hero__description {
@@ -91,6 +103,10 @@
     .hero__title {
         font-size: var(--size-7xl);
     }
+
+    .hero__titlesub {
+        font-size: var(--size-2xl);
+    }
     
     .hero__description {
         font-size: var(--size-lg);
@@ -117,6 +133,10 @@
     
     .hero__title {
         font-size: var(--size-9xl);
+    }
+
+    .hero__titlesub {
+        font-size: var(--size-5xl);
     }
     
     .hero__description {
